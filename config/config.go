@@ -13,7 +13,7 @@ func AppConfigFromFlags() AppConfig {
 	address := flag.String("kafkaaddress", "localhost:9092", "address and port fo kafka server")
 	defaultTopic := flag.String("topic", "health-check-test", "name of default topic")
 	frequencySeconds := flag.Int64("freqseconds", 3, "Frequency of healthcheck in seconds")
-	http := flag.String("httpport", ":7070", "http port for health checker service")
+	http := flag.String("httpport", "7070", "http port for health checker service")
 	flag.Parse()
 
 	return AppConfig{
