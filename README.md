@@ -38,7 +38,7 @@ run:
 
 ## How to use?
 
-Once installed and assuming you $GOPATH/bin directory is added to your $PATH. From the command line run:
+Once installed and assuming your $GOPATH/bin directory is added to your $PATH. From the command line run:
 
 ```kafka-healthchecker```
 
@@ -96,7 +96,7 @@ Currently there is no integration tests. This is still in development in a seper
 
 ## Contribute
 
-Anyone is welcome to contribute please send pull requests. Pull request should out line the problem found and the solution developed to solve.
+Anyone is welcome to contribute please send pull requests. Pull request should out line the problem found and the solution developed to solve. All changes should have test coverage.
 
 ## Credits
 - Kafka Client [segmentio/kafka-go](https://github.com/segmentio/kafka-go)
